@@ -1,0 +1,10 @@
+{
+  "include": ["**/*.ts", "cypress/support/e2e.ts", "cypress/support/commands.ts"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "sourceMap": false,
+    "types": ["cypress", "node"]
+  }
+}

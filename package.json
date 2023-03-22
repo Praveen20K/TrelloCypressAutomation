@@ -1,0 +1,18 @@
+{
+  "name": "pdmtestpatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "cypress": "https://cdn.cypress.io/beta/npm/12.6.0/win32-x64/fix-duplicate-and-expired-cookies-38a65a6d7c04dff8e5663d9fee1b7df1b5828fb4/cypress.tgz",
+    "cypress-drag-drop": "^1.1.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5"
+  }
+}
