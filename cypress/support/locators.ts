@@ -1,12 +1,15 @@
 export const trelloLocators:{ [key: string]: string } = {
    loginButton: 'a[href="/login"]',
+   loginText: 'div[class="layout-twothirds-center account-form"] h1',
    inputEmailId: 'input[id="user"]',
    continueButton: 'input[id="login"]',
    CreateButton: 'button[aria-label="Create board or Workspace"]',
    createBoard: 'button[data-testid="header-create-board-button"]',
    nameBoard: 'input[data-testid="create-board-title-input"]',
    createSubmitButton: 'button[data-testid="create-board-submit-button"]',
+   boardTitle: 'h1[class="js-board-editing-target board-header-btn-text"]',
    listA: 'input[class="list-name-input"]',
+   listTitle: 'div[class="list js-list-content"] textarea',
    addList: 'input[value="Add list"]',
    cancelList:'a[aria-label="Cancel list editing"]',
    addAcard: 'span[class="js-add-a-card',
@@ -15,7 +18,9 @@ export const trelloLocators:{ [key: string]: string } = {
    textArea2: 'div[class="list-card-details u-clearfix"] textarea',
    addCard2: 'div[class="cc-controls-section"] input',
    dragCard: ':nth-child(1) > .list > .list-cards > .list-card > .list-card-details > .list-card-title',
-   dropCard: ':nth-child(2) > .list > .list-cards',
+   cardB:':nth-child(2) > .list > .list-cards > .list-card > .list-card-details > .list-card-title',
+   dropPlace: ':nth-child(2) > .list > .list-cards',
+   cardCount: 'span[class="list-card-title js-card-name"]',
    accountButton: 'button[aria-label="Open member menu"] span',
    logoutButton: 'button[data-testid="account-menu-logout"]'
   };
